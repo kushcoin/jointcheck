@@ -1,0 +1,14 @@
+/* Styling for forms */
+form {
+    margin: 20px 0;
+}
+input[type="text"] {
+    margin: 10px 0;
+    /* additional styling */
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    /* additional styling */
+}
+/* Add more CSS as needed for styling the forms and buttons */

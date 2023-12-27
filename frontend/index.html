@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joint Check Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Joint Check Service</h1>
+    </header>
+    <main>
+        <form id="issue-check-form">
+            <input type="text" id="amount" placeholder="Amount">
+            <button type="submit">Submit Check</button>
+        </form>
+
+        <form id="review-check-form">
+            <input type="text" id="check-id" placeholder="Check ID">
+            <button type="button" id="accept-check-btn">Accept</button>
+            <button type="button" id="reject-check-btn">Reject</button>
+            <input type="text" id="note" placeholder="Add a note">
+        </form>
+
+        <form id="revise-check-form">
+            <input type="text" id="revised-check-id" placeholder="Check ID">
+            <input type="text" id="new-amount" placeholder="New Amount">
+            <input type="text" id="new-notes" placeholder="New Notes">
+            <button type="submit">Revise Check</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
